@@ -1,0 +1,79 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: "Century Gothic", Sans-serif;
+	font-size: 14px;
+}
+
+p {
+	letter-spacing: 1px;
+	color: #cda790;
+}
+
+/* Responsive */
+
+/* Transitions */
+
+@keyframes fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.fade {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fade;
+}
+
+/* Navigation */
+
+nav {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+ul {
+	padding: 0;
+	font-size: 11px;
+	word-spacing: 40px;
+}
+
+li {
+	display: inline-block;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #cda790;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: solid 1px #cda790;
+	padding-bottom: 6px;
+}
+
+.active {
+	border-bottom: solid 1px #cda790;
+	padding-bottom: 6px;
+}
+
+/* Content */
+
+.center {
+	text-align: center;
+}
+
+.home {
+	max-width: 60%;
+}
+
+.title {
+	font-size: 24px;
+}
+
